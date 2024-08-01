@@ -1,0 +1,70 @@
+body{
+    background-color: azure;
+}
+.container{
+    position: absolute;
+    top: 220px;
+    left: 250px;
+}
+.container h1{
+    color: blue;
+    font: size 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 150px;
+    left: 350x;
+    background-color:white;
+    width: 300px;
+    height: 300px;
+    margin-left: 600px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 7px gray;
+}
+.box input{
+    width: 75%;
+    margin-top: 16px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+#link1{
+    text-align: center;
+    text-decoration: none;
+    background-color: royalblue;
+    border-radius: 7px;
+    color: white;
+    padding: 5px;
+    margin-left: 30px;
+    margin-right: 24px;
+    transition: all .3s;
+}
+#link1:hover{
+    opacity: 0.8;
+}
+#link2{
+    text-align: center;
+    margin-top: 12px;
+    
+}
+#link3{
+    background-color: rgb(16, 231, 52);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-right: 24px;
+    transition: all .2s;
+}
+#link3:hover{
+    opacity: 0.8;
+    
+}
+#link3:active{
+    background-color: pink;
+}

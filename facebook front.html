@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="facebok style.css">
+    <script>
+        function msg(){
+            alert(" moving to external site")
+        }
+    </script>
+    <style>
+        @media all and (min-width:365px) and (max-width: 500px){
+            body{
+                background-color: rgb(185, 185, 219);
+            }
+            .container{
+                position: absolute;
+                top: 50px;
+                left: 200px;
+}
+header{
+    scale: 0.5;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    background-color:white;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 7px gray;
+}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>facebook</h1>
+        <p>Lets connect People</p>
+    </div>
+    <header>
+        <div class="box">
+                <input type="email" placeholder="Enter email" required><br><br>
+                <input type="password" name="password" id="password" placeholder="password"><br><br>
+        </div>
+        <div id="link1">
+            <a href="https://facebok.com" onclick="msg()" id="link1" target="_blank">Login</a>
+        </div>
+        <div id="link2"> <a href="Forget password?" id="link2" >Forget password?</a><br><br></div>
+        <hr>
+        <div id="link3"><a href="Create account" id="link3">Create account</a></div>
+
+    </header>
+</body>
+</html>
